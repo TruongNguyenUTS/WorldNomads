@@ -2,20 +2,20 @@
 
 ### How to run World Nomads project
 ====
-- Download World Nomads project
-- Open World Nomads project by Visual Studio 2013 (I developed by Ultimate version)
-- Build and Run
+- Clone Repository World Nomads to local machine
+- Open World Nomads solution (WorldNomads.sln) by Visual Studio 2013 (I developed by Ultimate version)
+- Build and Run WorldNomads project
 - Only accept integer, if not will show error
 
 ### How to run Unit Test project
 ====
-- Download UnitTestProject1
-- Open UnitTestProject1 by Visual Studio 2013 (I developed by Ultimate version)
-- Run all unit tests
+- Clone Repository World Nomads to local machine
+- Open World Nomads solution (WorldNomads.sln) by Visual Studio 2013 (I developed by Ultimate version))
+- Run all unit tests in project UnitTestProject1
 
 ### How to run Coded UI Test project
 ====
-- Download CodedUITestProject1
-- Open CodedUITestProject1 by Visual Studio 2013 (I developed by Ultimate version)
+- Clone Repository World Nomads to local machine
+- Open World Nomads solution (WorldNomads.sln) by Visual Studio 2013 (I developed by Ultimate version)
 - Deploy World Nomads project into IIS at address http://localhost/test
-- CodedUITestProject1 only run on IE
+- Build and run CodedUITestProject1, note that it only run on IE
