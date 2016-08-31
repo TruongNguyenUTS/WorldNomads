@@ -19,3 +19,4 @@
 - Open World Nomads solution (WorldNomads.sln) by Visual Studio 2013 (I developed by Ultimate version)
 - Deploy World Nomads project into IIS at address http://localhost/test
 - Build and run CodedUITestProject1, note that it only run on IE
+- This is just a demo for the number 20, not a full UI test.
