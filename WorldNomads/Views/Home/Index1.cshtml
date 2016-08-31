@@ -1,0 +1,36 @@
+﻿@model WorldNomads.Models.TestModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<body style="height:85%">
+    <section id="loginForm">
+        <h2>Enter a number</h2>
+        @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl }))
+        {
+            @*@Html.AntiForgeryToken()*@
+            @Html.ValidationSummary(true)
+
+            <fieldset>
+                
+                <ol>
+                    
+                        @Html.LabelFor(m => m.InputNumber)
+                        @Html.TextBoxFor(m => m.InputNumber)
+                        @Html.ValidationMessageFor(m => m.InputNumber)
+                    
+                   
+                    
+                </ol>
+                <ol>
+                    @ViewBag.Result
+                </ol>
+                <input type="submit" value="Submit" />
+            </fieldset>
+           
+        }
+    </section>
+   
+</body>
+
+
